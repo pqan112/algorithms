@@ -32,3 +32,5 @@ function binarySearch(list, target) {
 console.log(
   binarySearch([1, 3, 5, 7, 11, 13, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59], 31)
 );
+
+// áp dụng khi list đã được sắp xếp theo thứ tự từ bé đến lớn
