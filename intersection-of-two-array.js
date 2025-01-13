@@ -29,7 +29,21 @@ function a(nums1, nums2) {
 console.log(a(nums1, nums2));
 console.log(a(nums3, nums4));
 
-// // TODO: C2
-// function a2(nums1, nums2) {}
+function a2(nums1, nums2) {
+  const set1 = new Set(nums1);
 
-// console.log(a2(nums1, nums2));
+  console.log(set1);
+
+  const resultSet = new Set();
+
+  for (const num of nums2) {
+    if (set1.has(num)) {
+      resultSet.add(num);
+    }
+  }
+
+  return Array.from(resultSet);
+}
+
+console.log(a2(nums1, nums2));
+console.log(a2(nums3, nums4));
