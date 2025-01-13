@@ -32,8 +32,6 @@ console.log(a(nums3, nums4));
 function a2(nums1, nums2) {
   const set1 = new Set(nums1);
 
-  console.log(set1);
-
   const resultSet = new Set();
 
   for (const num of nums2) {
