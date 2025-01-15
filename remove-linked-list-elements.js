@@ -55,4 +55,7 @@ function removeElements1(head, val) {
   return dummy.next;
 }
 
+// time complexity: O(n)
+// space complexity: O(1)
+
 console.log(removeElements1(head, 6));
