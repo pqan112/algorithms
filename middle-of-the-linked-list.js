@@ -31,9 +31,11 @@ function middleNode2(head) {
   return s;
 }
 
-function ListNode(val, next = null) {
-  this.val = val;
-  this.next = next;
+class ListNode {
+  constructor(val, next = null) {
+    this.val = val;
+    this.next = next;
+  }
 }
 
 const head = new ListNode(1);
